@@ -88,6 +88,7 @@ version = "0.5.1"
 reference = "eedb2a27a492942e732a694fd3093da00041c265"
 type = "git"
 url = "https://github.com/kdrag0n/bprint.git"
+
 [[package]]
 category = "dev"
 description = "The uncompromising code formatter."
@@ -479,7 +480,7 @@ description = "Python client for Sentry (https://getsentry.com)"
 name = "sentry-sdk"
 optional = false
 python-versions = "*"
-version = "0.13.5"
+version = "0.14.3"
 
 [package.dependencies]
 certifi = "*"
@@ -646,7 +647,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 fast = ["uvloop"]
 
 [metadata]
-content-hash = "19c12da9ba07af3a141b5296a5f4febc0d4f450aeaafaba3442c7b970193bba8"
+content-hash = "6fb0854c9bec7c40621e6666ef94cdde0fd21de50eea28d63d9a3ea013117c2d"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -990,8 +991,8 @@ rsa = [
     {file = "rsa-4.0.tar.gz", hash = "sha256:1a836406405730121ae9823e19c6e806c62bbad73f890574fff50efa4122c487"},
 ]
 sentry-sdk = [
-    {file = "sentry-sdk-0.13.5.tar.gz", hash = "sha256:c6b919623e488134a728f16326c6f0bcdab7e3f59e7f4c472a90eea4d6d8fe82"},
-    {file = "sentry_sdk-0.13.5-py2.py3-none-any.whl", hash = "sha256:05285942901d38c7ce2498aba50d8e87b361fc603281a5902dda98f3f8c5e145"},
+    {file = "sentry-sdk-0.14.3.tar.gz", hash = "sha256:bb90a4e19c7233a580715fc986cc44be2c48fc10b31e71580a2037e1c94b6950"},
+    {file = "sentry_sdk-0.14.3-py2.py3-none-any.whl", hash = "sha256:23808d571d2461a4ce3784ec12bbee5bdb8c026c143fe79d36cef8a6d653e71f"},
 ]
 six = [
     {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
