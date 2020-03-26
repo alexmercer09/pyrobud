@@ -30,7 +30,7 @@ description = "Boilerplate for asyncio applications"
 name = "aiorun"
 optional = false
 python-versions = ">=3.5"
-version = "2019.11.1"
+version = "2020.2.1"
 
 [package.extras]
 dev = ["pytest", "pytest-cov"]
@@ -88,6 +88,7 @@ version = "0.5.1"
 reference = "eedb2a27a492942e732a694fd3093da00041c265"
 type = "git"
 url = "https://github.com/kdrag0n/bprint.git"
+
 [[package]]
 category = "dev"
 description = "The uncompromising code formatter."
@@ -646,7 +647,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 fast = ["uvloop"]
 
 [metadata]
-content-hash = "19c12da9ba07af3a141b5296a5f4febc0d4f450aeaafaba3442c7b970193bba8"
+content-hash = "b3806573dfca365cf1594a9dc11408d7c5a9fa213859695460a6d0b7e245469d"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -665,8 +666,8 @@ aiohttp = [
     {file = "aiohttp-3.6.2.tar.gz", hash = "sha256:259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326"},
 ]
 aiorun = [
-    {file = "aiorun-2019.11.1-py3-none-any.whl", hash = "sha256:625074ae213796bea07637e238f472f0947c4485a305f0c9d11c40c4b6cd47b6"},
-    {file = "aiorun-2019.11.1.tar.gz", hash = "sha256:27e10f0e7a45faa816fed85a516b0a19074723e4a07d8d024ed56977075b919a"},
+    {file = "aiorun-2020.2.1-py3-none-any.whl", hash = "sha256:7e9f5960b919efb6e5c147a3e75cf8a693f0d8245c12361d1e4e08c9b2d1b15e"},
+    {file = "aiorun-2020.2.1.tar.gz", hash = "sha256:2c0410edb7d26c27ef38653078ad6d3ee6985b77f379254210c2dd703f7d76d6"},
 ]
 appdirs = [
     {file = "appdirs-1.4.3-py2.py3-none-any.whl", hash = "sha256:d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"},
